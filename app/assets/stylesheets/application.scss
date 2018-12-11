@@ -1,2 +1,12 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+// Import variables
+@import "base/variables";
+
+// Import partials
+@import "partials/layouts/*";
+
+.marg-top {
+  margin-top: 60px;
+}
