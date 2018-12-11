@@ -5,8 +5,12 @@ ruby '2.5.1'
 
 # Use Haml
 gem 'haml', '~> 5.0', '>= 5.0.4'
-# Change all the view files to Haml
+# Switch all the view files to Haml
 gem 'html2haml', '~> 2.2'
+# Use bootstrap 4
+gem 'bootstrap', '~> 4.1.3'
+# Use jQuery
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1', '>= 5.2.1.1'
