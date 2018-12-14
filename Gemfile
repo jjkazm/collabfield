@@ -6,6 +6,9 @@ ruby '2.5.1'
 # Use devise
 gem 'devise'
 
+#Use simple_form
+gem 'simple_form'
+
 # Use Haml
 gem 'haml', '~> 5.0', '>= 5.0.4'
 # Switch all the view files to Haml
