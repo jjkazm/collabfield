@@ -1,7 +1,10 @@
-%h2 Log in
-= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-  = f.input :email, autofocus: true, placeholder: 'email',  class: 'form-control'
-  = f.input :password, autocomplete: "off", placeholder: 'password',  class: 'form-control'
-  - if devise_mapping.rememberable?
-    = f.input :remember_me, as: :boolean
-  = f.button :submit
+
+.row
+  .col-sm-6.offset-sm-3
+    %h2 Log in
+    = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+      = f.input :email, autofocus: true, placeholder: 'email',  class: 'form-control'
+      = f.input :password, autocomplete: "off", placeholder: 'password',  class: 'form-control'
+      - if devise_mapping.rememberable?
+        = f.input :remember_me, as: :boolean
+      = f.button :submit
