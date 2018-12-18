@@ -1,9 +1,11 @@
 .container#sign-up-form
   .row
-    %h1 Get in touch with like-minded people
-    %h3 Create study and acomplish together
+    .col-sm-12
+      %h1 Get in touch with like-minded people
+      %h3 Create study and acomplish together
     .col-sm-6.offset-sm-3
-      %h3 Sign up
+      %h3
+        Sign up
         %small it's free
       = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
         = f.input :name, autofocus: true, placeholder: 'username',  class: 'form-control'

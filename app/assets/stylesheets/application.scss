@@ -5,7 +5,10 @@
 @import "base/variables";
 
 // Import partials
+@import "partials/*";
 @import "partials/layouts/*";
+
+
 
 .marg-top {
   margin-top: 60px;
