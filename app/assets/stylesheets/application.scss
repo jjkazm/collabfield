@@ -4,6 +4,9 @@
 // Import variables
 @import "base/variables";
 
+// Import defaults
+@import "base/default";
+
 // Import partials
 @import "partials/*";
 @import "partials/layouts/*";

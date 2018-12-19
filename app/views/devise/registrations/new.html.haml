@@ -1,7 +1,7 @@
 .container#sign-up-form
   .row
     .col-sm-12
-      %h1 Get in touch with like-minded people
+      %h1.signup Get in touch with like-minded people
       %h3 Create study and acomplish together
     .col-sm-6.offset-sm-3
       %h3
@@ -13,4 +13,4 @@
         = f.input :password, autocomplete: "off", placeholder: 'password',  class: 'form-control'
         - if devise_mapping.rememberable?
           = f.input :remember_me, as: :boolean
-        = f.button :submit
+        = f.button :submit, class:"btn btn-primary full-width"
